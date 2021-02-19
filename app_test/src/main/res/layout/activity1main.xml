@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        style="@style/ll_title"
+        android:background="@color/color_0286DF">
+
+        <RelativeLayout style="@style/rl_title">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                style="@style/iv_title" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="需求详情" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.ycbjie.webviewlib.wv.X5WvWebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+</LinearLayout>

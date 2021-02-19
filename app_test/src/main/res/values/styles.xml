@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <style name="tv_title">1</style>
+
+
+    <style name="ll_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp64</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="rl_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp40</item>
+        <item name="android:layout_marginTop">@dimen/dp20</item>
+    </style>
+
+    <style name="iv_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/dp15</item>
+        <item name="android:paddingRight">@dimen/dp10</item>
+        <item name="android:paddingTop">@dimen/dp5</item>
+        <item name="android:paddingBottom">@dimen/dp5</item>
+        <item name="android:layout_marginBottom">@dimen/dp10</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@mipmap/back</item>
+    </style>
+
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp64">64dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+</resources>
